@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - WTDemo (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - WTDemo (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  WTDemo:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  WTDemo: ff8930fd5b4132f0a42c6189a04a3f8a2fc4ecfd
+
+PODFILE CHECKSUM: 88dfa04190619abd95946f4bbfbdee9f93f589de
+
+COCOAPODS: 1.5.0

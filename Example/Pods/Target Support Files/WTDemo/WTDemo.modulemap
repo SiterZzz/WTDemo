@@ -1,0 +1,6 @@
+framework module WTDemo {
+  umbrella header "WTDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
