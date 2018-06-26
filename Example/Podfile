@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'WTDemo_Example' do
+  pod 'WTDemo', :path => '../'
+
+  target 'WTDemo_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
